@@ -10,8 +10,8 @@ protected routes, and ownership-based access control.
 
 ## 📁 Project Structure
 task-manager/
-├── task-client/     → React frontend
-└── task-api/        → Node.js + Express backend
+├── frontend/     → React frontend
+└── backend/        → Node.js + Express backend
 
 ## ⚙️ Tech Stack
 | Frontend | Backend | Database |
@@ -33,7 +33,7 @@ task-manager/
 
 ### Backend
 ```bash
-cd task-api
+cd backend
 npm install
 # add .env file with MONGO_URI, JWT_SECRET, PORT
 npm run dev
@@ -41,7 +41,7 @@ npm run dev
 
 ### Frontend
 ```bash
-cd task-client
+cd frontend
 npm install
 npm start
 ```
