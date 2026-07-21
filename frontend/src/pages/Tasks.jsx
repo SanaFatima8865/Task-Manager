@@ -44,7 +44,7 @@ const Tasks = () => {
 
     const handleDelete = async(id) => {
         try {
-            await handleDelete(id);
+            await deleteTask(id);
             setTasks(tasks.filter(t => t._id !== id));
         } catch(err) {
             setError('Failed to delete task');
