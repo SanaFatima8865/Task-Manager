@@ -21,8 +21,8 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.use(cors({
     origin: [
-        'http://localhost:3000',    //local React dev
-        //'https://your-app.vercel.app'    //deployed frontend (add after deploy)
+        //'http://localhost:3000',    //local React dev
+        'https://task-manager-sana-fatima.vercel.app'    //deployed frontend (add after deploy)
     ],
     credentials: true
 }));
